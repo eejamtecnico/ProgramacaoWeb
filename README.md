@@ -35,19 +35,19 @@ Materiais de aula do professor Berg Dantas. Nesta disciplina, estudaremos as tec
     </tr>
     <tr>
         <td>17/03</td>
-        <td><a href="https://www.canva.com/design/DAHDltzuWHQ/oxngjwHOxkBmp92BFQY4Cw/edit?utm_content=DAHDltzuWHQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Como funciona a internet?</a></td>
+        <td><a href="https://canva.link/fq6asar7qy1ytuz">Como funciona a internet?</a></td>
     </tr>
     <tr>
         <td>18/03</td>
-        <td><a href="https://www.canva.com/design/DAHEMm90JEc/6s0n_8_UYUkejnuox_nDmw/edit?utm_content=DAHEMm90JEc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Configurando o ambiente de trabalho.</a></td>
+        <td><a href="https://canva.link/e5det18db6xyrca">Configurando o ambiente de trabalho.</a></td>
     </tr>
     <tr>
         <td>19/03</td>
-        <td><a href="https://www.canva.com/design/DAHEwq9DcoQ/xref6Yg6nc1YrnCKT_NI0A/edit?utm_content=DAHEwq9DcoQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Tipos de arquivos.</a></td>
+        <td><a href="https://canva.link/tm1o6j5ysbc4euz">Tipos de arquivos (html).</a></td>
     </tr>
     <tr>
         <td>24/03 a 31/03</td>
-        <td><a href="https://www.canva.com/design/DAHEwjsCgh0/iKcQTQQvczSsI0nqrdgNuw/edit?utm_content=DAHEwjsCgh0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"><p>Estrutura de uma página WEB;</p><p>Semântica;</p><p>Texto.</p></a>
+        <td><a href="https://canva.link/y1eyzabnk3kl42r"><p>Estrutura de uma página WEB;</p><p>Semântica;</p><p>Texto.</p></a>
     </tr>
     <tr>
         <td>07/04</td>
