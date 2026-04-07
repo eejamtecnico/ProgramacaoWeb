@@ -55,7 +55,7 @@ Materiais de aula do professor Berg Dantas. Nesta disciplina, estudaremos as tec
     </tr>
     <tr>
         <td></td>
-        <td>Link.</td>
+        <td><a href="https://canva.link/t3rczy1faunom5n">Link.</a></td>
     </tr>
     <tr>
         <td></td>
