@@ -57,8 +57,8 @@ Materiais de aula do professor Berg Dantas. Nesta disciplina, estudaremos as tec
         <td>09/04</td>
         <td><a href="https://canva.link/t3rczy1faunom5n">Link.</a></td>
     </tr>
-    tr>
-        <td></td>
+    <tr>
+        <td>16/04</td>
         <td>Entrega das receitas de bolo, usando marcações de texto e lista.</td>
     </tr>
     <tr>
