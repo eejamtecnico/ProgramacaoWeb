@@ -155,6 +155,44 @@ Materiais de aula do professor Berg Dantas. Nesta disciplina, estudaremos as tec
     </tr>
 </table>
 
+## Competências
+
+### Primeiro bimestre
+<ul>
+    <li>Compreender o funcionamento da internet, identificando seus principais componentes, protocolos e a lógica de comunicação entre cliente e servidor.</li>
+    <li>Configurar o ambiente de desenvolvimento, instalando e utilizando as ferramentas necessárias para criação de páginas web.</li>
+    <li>Reconhecer os tipos de arquivos web, com ênfase no formato HTML e seu papel na estruturação de páginas.
+    <li>Compreender a estrutura e a semântica de uma página web, utilizando corretamente as tags HTML para organizar e dar sentido ao conteúdo.</li>
+    <li>Aplicar os elementos HTML fundamentais (textos, listas, links, imagens, vídeos, áudios, tabelas e formulários) para construir páginas web funcionais e bem estruturadas.</li>
+</ul>
+
+### Segundo bimestre
+
+<ul>
+    <li>Compreender o papel do CSS no desenvolvimento web, diferenciando estrutura (HTML) de apresentação (CSS) e aplicando as formas de uso do CSS em páginas.</li>
+    <li>Entender e aplicar o box-model, compreendendo o comportamento de elementos div, semânticos e não semânticos no layout da página.</li>
+    <li>Criar e organizar layouts responsivos, utilizando as propriedades CSS Grid e Flexbox para estruturar páginas de forma moderna e eficiente.</li>
+    <li>Utilizar o framework Bootstrap para agilizar o desenvolvimento de interfaces web responsivas e padronizadas.</li>
+</ul>
+
+### Terceiro bimestre
+<ul>
+    <li>Compreender os fundamentos da linguagem JavaScript, reconhecendo seu papel no desenvolvimento web e sua integração com HTML e CSS.</li>
+    <li>Declarar e manipular variáveis, constantes e tipos de dados, compreendendo como as informações são armazenadas e tratadas em um programa.</li>
+    <li>Utilizar operadores e expressões para realizar cálculos e comparações dentro de algoritmos.</li>
+    <li>Aplicar estruturas condicionais para controlar o fluxo de execução de um programa de acordo com diferentes situações.</li>
+    <li>Implementar estruturas de repetição para automatizar tarefas e percorrer conjuntos de dados de forma eficiente.</li>
+    <li>Criar e utilizar funções, compreendendo conceitos de modularização, sintaxe, passagem de parâmetros e retorno de valores.</li>    
+</ul>
+
+### Quarto bimestre
+
+<ul>
+    <li>Manipular elementos HTML por meio do DOM, selecionando, alterando e criando elementos dinamicamente com JavaScript.</li>
+    <li>Implementar eventos e interatividade em páginas web, respondendo a ações do usuário para criar experiências dinâmicas e funcionais.</li>
+    <li>Desenvolver um projeto web completo e aplicado, integrando os conhecimentos de HTML, CSS e JavaScript para produzir uma página real para a escola, exercitando planejamento, criatividade e trabalho colaborativo.</li>
+</ul>
+
 ## Referências
 
 CASTRO, E.; HYSLOP, B. HTML e CSS: Guia prático e visuall. 7a ed. Rio de Janeiro:
