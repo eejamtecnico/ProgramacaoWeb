@@ -1,19 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
         <title>tag de vídeo</title>
     </head>
+
     <body>
+        <h1>Vídeo</h1>
+
+        <!-- inserindo o vídeo -->
         <video controls poster="arquivos/imagem/foto.png" width="640">
-            <source src="arquivos/video/filme.mp4" type="video/mp4">
+            <source src="arquivos/video/filme.mp4" type="video/mp4" />
         </video>
+
         <p>Parâmetros:</p>
-                <p>controls: mostra os controles de reprodução.</p>
-                <p>autoplay: tenta iniciar automaticamente.</p>
-                <p>muted: inicia sem áudio.</p>
-                <p>loop: repete o vídeo continuamente.</p>
-                <p>poster: exibe uma imagem antes da reprodução.</p>
-                <p>width/height: definem o tamanho do vídeo.</p>
+        <ul>
+            <li>controls: mostra os controles de reprodução.</li>
+            <li>autoplay: tenta iniciar automaticamente.</li>
+            <li>muted: inicia sem áudio.</>
+            <li>loop: repete o vídeo continuamente.</li>
+            <li>poster: exibe uma imagem antes da reprodução.</li>
+            <li>width/height: definem o tamanho do vídeo.</li>
+        </ul>
+
+        <!-- vídeo com iframe (importado de serviços de vídeo) -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EsoZhK9PyJc?si=OavGVu0IogNtFO3T" title="YouTube video player" frameborder="0" allow=" accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </body>
 </html>
