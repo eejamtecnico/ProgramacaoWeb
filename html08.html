@@ -6,134 +6,191 @@
         <title>Tags de formulário</title>
     </head>
     <body>
-        <!-- conteúdo da página -->
-        <h2>Formulários</h2>
-            <!-- campo de texto -->
-            <form>
-                <label for="inCpf">Campo de texto curto</label>
-                <input type="text" id="inCpf" name="inCpf" placeholder="Usuário"/>
-            </form>
+        <h1>Formulários</h1>
+        
+        <h2>Campo de texto</h2>
+        <form>
+            <label for="inCpf">Campo de texto curto</label>
+            <input type="text" id="inCpf" name="inCpf" placeholder="Usuário" />
+        </form>
 
-            <!-- campo de senha -->
-            <form>
-                <label for="inPass">Campo de senha</label>
-                <input type="password" id="inPass" name="inPass" placeholder="Senha"/>
-            </form>
+        <h2>Campo de senha</h2>
+        <form>
+            <label for="inPass">Campo de senha</label>
+            <input type="password" id="inPass" name="inPass" placeholder="Senha" />
+        </form>
 
-            <!-- campo de email -->
-            <form>
-                <label for="inEmail">Campo de email</label>
-                <input type="email" id="inEmail" name="inEmail" placeholder="modelo@email.com"/>
-            </form>
+        <h2>Campo de email</h2>
+        <form>
+            <label for="inEmail">Campo de email</label>
+            <input type="email" id="inEmail" name="inEmail" placeholder="modelo@email.com" />
+        </form>
 
-            <!-- campo de telefone -->
-            <form>
-                <label for="inTel">Campo de telefone</label>
-                <input type="tel" id="inTel" name="inTel" placeholder="(xx)x xxxx xxx" />
-            </form>
+        <h2>Campo de telefone</h2>
+        <form>
+            <label for="inTel">Campo de telefone</label>
+            <input type="tel" id="inTel" name="inTel" placeholder="(xx)x xxxx xxx" />
+        </form>
+        
+        <h2>Campo de endereço de site</h2>
+        <form>
+            <label for="inUrl">Campo de endereço de site</label>
+            <input type="url" id="inUrl" name="inUrl" placeholder="www.seusite.com.br" />
+        </form>
 
-            <!-- campo de endereço de site -->
-            <form>
-                <label for="inUrl">Campo de endereço de site</label>
-                <input type="url" id="inUrl" name="inUrl" placeholder="www.seusite.com.br"  />
-            </form>
+        <h2>Campo de busca</h2>
+        <form>
+            <label for="inBusca">Campo de busca</label>
+            <input type="search" id="inBusca" name="inBusca" placeholder="O que você está buscando" />
+        </form>
 
+        <h2>Campo de data</h2>
+        <form>
+            <label for="inData">Campo de data</label>
+            <input type="date" id="inData" name="inData">
+        </form>
+
+        <h2>Campo de hora</h2>
+        <form>
+            <label for="inHora">Campo de hora </label>
+            <input type="time" id="inHora" name="inHora" />
+        </form>
+
+        <h2>Campo de deslizar</h2>
+        <form>
+            <label for="inDeslizar">Campo de deslizar</label>
+            <input type="range" id="inDeslizar" name="inDeslizar" />
+        </form>
+
+        <h2>Campos de upload</h2>
+        <form>
+            <label>Campo de upload de arquivo</label>
+            <!-- campo padrão -->
+            <input type="file" id="inArquivo" name="inArquivo" />
+            <br />
+
+            <!-- caso queira limitar os tipos de arquivos permitidos passando as extensões válidas -->
+            <input type="file" id="inArquivo" name="inArquivo" accept=".png, .jpg, .jpeg" />
+            <br />
+
+            <!-- caso queira limitar os tipos de arquivos permitidos passando o tipo de mídia válida (image, video, application etc.) -->
+            <input type="file" id="inArquivo" name="inArquivo" accept="image/*" />
+            <br />
             
+            <input type="file" id="inArquivo" name="inArquivo" accept="application/pdf" />
+            <br />
+        </form>
 
-            <!-- campo de busca -->
-            <form>
-                <label for="inBusca">Campo de busca</label>
-                <input type="search" id="inBusca" name="inBusca" placeholder="O que você está buscando"/>
-            </form>
+        <h2>Campo de número</h2>
+        <form>
+            <label for="inNumero">Campo de endereço de site</label>
+            <input type="number" id="inNumero" name="inNumero" value="0" /> <!-- inicializo o campo com 0, mas o usuário pode alterar -->
+        </form>
 
-            <!-- Campos sem placeholder-->
-            <!-- campo de data -->
-            <form>
-                <label for="inData">Campo de data</label>
-                <input type="date" id="inData" name="inData" >
-            </form>
+        <h2>Campo de checkbox</h2>
+        <form>
+            <input type="checkbox" id="html" name="fav_linguagem" value="HTML">
+            <label for="html">HTML</label><br />
 
-            <!-- campo de hora -->
-            <form>
-                <label for="inHora">Campo de hora </label>
-                <input type="time" id="inHora" name="inHora"/>
-            </form>
+            <input type="checkbox" id="css" name="fav_linguagem" value="CSS">
+            <label for="css">CSS</label><br />
 
-            <!-- campo de deslizar -->
-            <form>
-                <label for="inDeslizar">Campo de deslizar</label>
-                <input type="range"  id="inDeslizar" name="inDeslizar"/>
-            </form>
+            <input type="checkbox" id="javascript" name="fav_linguagem" value="JavaScript">
+            <label for="javascript">JavaScript</label><br />
+        </form>
 
-            <!-- campo de upload de arquivo -->
-            <form>
-                <label>Campo de upload de arquivo</label>
-                <!-- campo padrão -->
-                <input type="file" id="inArquivo" name="inArquivo" />
-                <br />
-                
-                <!-- caso queira limitar os tipos de arquivos permitidos passando as extensões válidas -->
-                <input type="file" id="inArquivo" name="inArquivo" accept=".png, .jpg, .jpeg" />
-                <br />
+        <h2>Campo de botão de rádio</h2>
 
-                <!-- caso queira limitar os tipos de arquivos permitidos passando o tipo de mídia válida (image, video, application etc.) -->
-                <input type="file" id="inArquivo" name="inArquivo" accept="image/*" />
-                <br />
-                <input type="file" id="inArquivo" name="inArquivo" accept="application/pdf" />
-                <br />
-            </form>
+        <form>
+            <input type="radio" id="html" name="fav_linguagem" value="HTML">
+            <label for="html">HTML</label><br />
 
-            <!-- value pode definir o valor enviado ao servidor quando o formulário é submetido ou inicializar um campo com um valor -->
+            <input type="radio" id="css" name="fav_linguagem" value="CSS">
+            <label for="css">CSS</label><br />
 
-            <!-- campo de numero -->
-            <form>
-                <label for="inNumero">Campo de endereço de site</label>
-                <input type="number" id="inNumero" name="inNumero"  value="0"/> <!-- inicializo o campo com 0, mas o usuário pode alterar -->
-            </form>
+            <input type="radio" id="javascript" name="fav_linguagem" value="JavaScript">
+            <label for="javascript">JavaScript</label><br />
+        </form>
 
-            <!-- campo de checkbox -->
-            <form>
-                <input type="checkbox" id="html" name="fav_linguagem" value="HTML">
-                <label for="html">HTML</label><br />
-                
-                <input type="checkbox" id="css" name="fav_linguagem" value="CSS">
-                <label for="css">CSS</label><br />
-                
-                <input type="checkbox" id="javascript" name="fav_linguagem" value="JavaScript">
-                <label for="javascript">JavaScript</label><br />
-            </form>
+        <h2>Campo de caixa de lista suspensa</h2>
+        <form>
+            <select name="dispositivos">
+                <option value="" selected disabled>Escolha uma opção</option>
+                <option value="celular">Celular</option>
+                <option value="tablet">Tablet</option>
+                <option value="notebook">Notebook</option>
+                <option value="desktop">Desktop</option>
+            </select>
+        </form>
 
-            <!-- campo de radio -->
-            <form>
-                <input type="radio" id="html" name="fav_linguagem" value="HTML">
-                <label for="html">HTML</label><br />
-                
-                <input type="radio" id="css" name="fav_linguagem" value="CSS">
-                <label for="css">CSS</label><br />
-                
-                <input type="radio" id="javascript" name="fav_linguagem" value="JavaScript">
-                <label for="javascript">JavaScript</label><br />
-            </form>
+        <h2>Campo de caixa de múltipla seleção (pressionando a tecla controle e clicando nas opções)</h2>
+        <form>
+            <select name="dispositivos[]" multiple="multiple" size="5">
+                <option disabled>Escolha uma ou mais opções</option>
+                <option value="celular">Celular</option>
+                <option value="tablet">Tablet</option>
+                <option value="notebook">Notebook</option>
+                <option value="desktop">Desktop</option>
+            </select>
+        </form>
 
-            <!-- botão submit  -->
-            <form>
-                <label>Campo de submit</label>
-                <input type="submit" value="Enviar" />
-            </form>
+        <h2>Botões</h2>
+        <form>
+            <label>Botão de submit</label>
+            <input type="submit" value="Enviar" />
+        </form>
 
-            <!-- campo de limpar campos -->
-            <form>
-                <label>Campo de limpar campos</label>
-                <input type="reset" value="Limpar" />
-            </form>
+        <form>
+            <label>Botão de limpar campos</label>
+            <input type="reset" value="Limpar" />
+        </form>
 
-            <!-- botão genérico  -->
-            <form>
-                <label>Campo de botão genérico</label>
-                <input type="button" value="Clique em mim" onclick="alert('O botão foi clicado!')">
-            </form>
+        <form>
+            <label>Botão genérico (meu preferido!   S2)</label>
+            <input type="button" value="Clique em mim" onclick="alert('O botão foi clicado!')">
+        </form>
 
-            <!-- área para textos maiores -->
-            <textarea placeholder="Digite sua mensagem..."  id="textoGrande" name="textoGrande" ></textarea>
+        <h2>Área para textos maiores</h2>
+        <form>
+            <label for="textoGrande">Escreva o seu recado!</label>
+            <br />
+            <textarea placeholder="Digite sua mensagem..." id="textoGrande" name="textoGrande"></textarea>
+        </form>
+
+        <h2>Exemplo:</h2>
+        <form>
+            <label for="idade">Qual a idade?</label>
+            <input type="number" min="0" max="100" name="idade" id="idade" value="" required />
+            <br />
+            <label for="nome">Qual o Nome?</label>
+            <input type="text" name="nome" id="nome" minlength="6" maxlength="12" required />
+            <br />
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+            
+        </form>
+
+        <h2>Parâmetros:</h2>
+        <ul>
+            <li>action: necessário para todo form. Seu valor é a url da página do servidor que receberá os dados;</li>
+            <li>method: formulários podem ser enviados com os métodos get e post;</li>
+            <li>type: o tipo do campo. Pode ser text, password, number etc.</li>
+            <li>name: é o nome do campo</li>
+            <li>id: é o identificador do campo</li>
+            <li>value: pode definir o valor enviado ao servidor quando o formulário é submetido ou inicializar um campo com um valor;</li>
+            <li>maxlength e minlength: tamanho máximo e mínimo de um campo de texto;</li>
+            <li>checked: indica se um campo já pode iniciar sendo selecionado em um formulario de radio ou checkbox;</li>
+            <li>selected: para já aparecer com a opção selecionada ao carregar a página;</li>
+            <li>selected disabled: quando não quer que nenhuma opção seja marcada no menu de caixa suspensa;</li>
+            <li>multiple: para selecionar mais de uma opção de uma caixa de múltipla seleção;</li>
+            <li>size: atributo que altera o tamanho do campo (não usar com inputs, ele é reservado pra elementos de formulários mais antigos);</li>
+            <li>max e min: tamanho máximo e mínimo de um campo numérico;</li>
+            <li>for: para associar um label a um input pelo id;</li>            
+            <li>fieldset: agrupar controles de formulários relacionados;</li>
+            <li>legend: é uma legenda que vêm imediatamente após o fieldset;</li>
+            <li>required: quando o preenchimento é obrigatório;</li>
+            <li>placeholder: para o campo ser carregado com alguma instrução de preenchimento;</li>
+            <li>accept: para limitar, no campo de upload, quais tipos de arquivos podem ser enviados.</li>
+        </ul>
     </body>
 </html>
