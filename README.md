@@ -79,15 +79,15 @@ Materiais de aula do professor Berg Dantas. Nesta disciplina, estudaremos as tec
         <th>Tema</th>
     </tr>
     <tr>
-        <td>19/05 até xx/xx</td>
+        <td>19/05 até 11/06</td>
         <td>HTML: formulário.</td>
     </tr>
     <tr>
-        <td></td>
+        <td>16/06</td>
         <td>CSS: o que é? Para que serve? Como usar?</td>
     </tr>
     <tr>
-        <td></td>
+        <td>18/06</td>
         <td>O que é o box-model? O que é uma div? O que é uma div semântica?</td>
     </tr>
     <tr>
